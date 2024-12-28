@@ -5,7 +5,7 @@ import { LiaPhoneVolumeSolid } from "react-icons/lia";
 
 const Contact = ({ name, number, onDelete }) => {
   return (
-    <div className={s.item}>
+    <li className={s.item}>
       <div>
         <p>
           <BsPersonSquare className={s.card_icon} />
@@ -19,7 +19,7 @@ const Contact = ({ name, number, onDelete }) => {
       <button className={s.button} type="button" onClick={onDelete}>
         Delete
       </button>
-    </div>
+    </li>
   );
 };
 
