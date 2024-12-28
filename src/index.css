@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: lightslategray;
 }
 
 h1 {
@@ -65,4 +66,18 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.phonebook-box {
+  margin: 24px;
+  border-radius: 16px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px 2px white;
+  padding: 0 32px 16px 32px;
+}
+.phonebook-title {
+  margin: 0;
+  padding: 12px;
+}
+.icon {
+  margin-left: 24px;
 }
